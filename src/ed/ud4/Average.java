@@ -15,7 +15,7 @@ public class GeneradorDeNumeros {
 
         // Generar tantos números aleatorios entre 1 y 50 como se haya obtenido en el punto anterior
         for (int i = 0; i < count; i++) {
-            int numeroAleatorio = random.nextInt(50) + 1;  // nextInt(50) genera entre 0 y 49, sumamos 1 para que sea entre 1 y 50
+            int numeroAleatorio = random.nextInt(100) + 1;  // nextInt(50) genera entre 0 y 49, sumamos 1 para que sea entre 1 y 50
             total += numeroAleatorio;
             System.out.println("Número aleatorio " + (i + 1) + ": " + numeroAleatorio);
         }
