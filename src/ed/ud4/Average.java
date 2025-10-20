@@ -23,5 +23,8 @@ public class GeneradorDeNumeros {
         // Mostrar la suma total
         System.out.println("Suma total de los números generados: " + total);
 
+        // calculamos la media
+        double media = (double) total / (double) count;
+        System.out.println("Media: " + media);
     }
 }
